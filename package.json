@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:podman": "podman run --rm -e PLAYWRIGHT_HTML_OPEN=never -v \"$PWD/playwright-report:/app/playwright-report\" -v \"$PWD/test-results:/app/test-results\" playwright-tests:lesson2"
+    "test:podman": "podman run --rm -e PLAYWRIGHT_HTML_OPEN=never -v \"$PWD/playwright-report:/app/playwright-report\" -v \"$PWD/test-results:/app/test-results\" playwright-tests:latest"
   },
   "keywords": [],
   "type": "commonjs",
